@@ -23,7 +23,7 @@ background-img: "../img/intro-bg.jpg"
 ##############################
 # Dynamic Text on the Header #
 ##############################
-dynamic-typing: False
+dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -37,7 +37,7 @@ lines: # You can add HTML Tags in the Text
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/soumyak4.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
@@ -128,9 +128,8 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 pages_list:
   About: "about"
-  # Blog: "latest-post"
-  # Timeline: "timeline"
-  Contact: "contact"
+  Timeline: "timeline"
+
 # Exclusion list from the generated _site
 exclude:
   - LICENSE
