@@ -1,10 +1,10 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: ""
+url: "https://le4ker.github.io/personal-jekyll-theme"
 
 # Google tracking id
-google-tracking-id: ""
+google-tracking-id: "UA-XXXXXXXX-X"
 
 #############
 # HTML Head #
@@ -27,17 +27,17 @@ dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 15
+type-speed: 10
 start-delay: 200
-delete-delay: 3000
+delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
-# me-img: "/img/jetpacktocat.png"
+me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-me-img: "https://github.com/soumyak4.png?size=500"
+# me-img: "https://github.com/user_name.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
@@ -66,7 +66,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 post-preview-words: 96
-paginate: 10
+paginate: 8
 email-share: True
 fb-share: True
 twitter-share: True
