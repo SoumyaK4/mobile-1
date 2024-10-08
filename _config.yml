@@ -128,7 +128,7 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Timeline: "timeline"
+  Profile: "Experiences"
 
 # Exclusion list from the generated _site
 exclude:
